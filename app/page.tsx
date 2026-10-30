@@ -1,11 +1,11 @@
 import About from "@/components/About/page";
 import Contact from "@/components/Contact/page";
 import Footer from "@/components/Footer/page";
-import Header from "@/components/Header/page";
 import Hero from "@/components/Hero/page";
 import Venture from "@/components/Venture/page";
 import { ventures } from "@/lib/content";
 import './globals.css';
+import Header from "@/components/Header/page";
 
 export default function Home() {
   return (
