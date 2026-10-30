@@ -10,14 +10,14 @@ import './globals.css';
 export default function Home() {
   return (
     <main>
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-5 sm:px-6 lg:px-8">
         <Header />
         <Hero />
       </div>
       {ventures.map((v) => (
         <Venture key={v.id} venture={v} />
       ))}
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-5 sm:px-6 lg:px-8">
         <About />
         <Contact />
         <Footer />
