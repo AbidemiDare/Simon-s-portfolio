@@ -1,4 +1,6 @@
-import Site from "@/components/Site";
+// import Site from "@/components/Site";
+
+import Site from "@/components/Site/page";
 
 export default function Home() {
   return <Site />;

@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Header from "./Header";
-import Hero from "./Hero";
-import Venture from "./Venture";
-import About from "./About";
-import Contact from "./Contact";
-import Footer from "./Footer";
 import { ventures } from "@/lib/content";
+import Header from "../Header/page";
+import Hero from "../Hero/page";
+import Venture from "../Venture/page";
+import About from "../About/page";
+import Contact from "../Contact/page";
+import Footer from "../Footer/page";
 
 const views = ["home", "estate", "crypto", "shoes", "about", "contact"] as const;
 type View = (typeof views)[number];
