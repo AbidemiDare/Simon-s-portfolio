@@ -14,7 +14,7 @@ const body = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name | Real estate, crypto and sneakers",
+  title: "Thompson Consult | Real estate, crypto and sneakers",
   description: "Real estate, crypto guidance and sneakers from one trusted source.",
 };
 export const viewport: Viewport = { viewportFit: "cover" };
